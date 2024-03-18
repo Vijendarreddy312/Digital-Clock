@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./tree-3358468.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Clock{
+ width: 100%;
+ max-width: 380px;
+ padding: 80px;
+ /* background-color: aliceblue; */
+ box-shadow: 9px 0px 9px rgba(0, 0, 0, 0.1),0px 10px 20px rgba(0, 0, 0, 0.8);
+ 
+ display: flex;
+ align-items: center;
+ border-radius: 25px;
+}
+.Clock h1{
+    font-weight: 700;
+    font-size: 4.5rem;
+}
+.Clock span{
+    position: relative;
+    top: -15%;
+    margin-left: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
